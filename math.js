@@ -1,6 +1,6 @@
 function factorial(n) {
     if (n < 0) {
-        throw new Error("El número no puede ser negativo");
+        throw new Error('El número no puede ser negativo');
     }
     if (n === 0) return 1;
 
@@ -13,7 +13,7 @@ function factorial(n) {
 
 function fibonacci(n) {
     if (n < 0) {
-        throw new Error("El número no puede ser negativo");
+        throw new Error('El número no puede ser negativo');
     }
     if (n === 0) return 0;
     if (n === 1) return 1;
