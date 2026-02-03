@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "echo \"No build step required\""
   },
   "type": "module",
   "keywords": [],
