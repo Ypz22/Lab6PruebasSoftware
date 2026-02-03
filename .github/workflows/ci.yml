@@ -32,4 +32,7 @@ jobs:
       run: |
         echo "Simulating deployment, Application pass all tests and linting checks."
 
+    - name: build
+      run: npm ci && npm run build
+
    
